@@ -66,7 +66,7 @@ Open your browser and go to `http://127.0.0.1:5000`
 - **Delete Movies:** Remove movies from your list as desired.
 - **Dynamic Ranking:** Movies are automatically ranked based on your ratings.
 
-## Future Improvements
+## Future Possible Improvements
 - Add user authentication to allow personalized movie lists.
 - Enhance search functionality with auto-complete.
 - Introduce a community rating feature to see average ratings from all users.
