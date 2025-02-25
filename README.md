@@ -71,9 +71,4 @@ Open your browser and go to `http://127.0.0.1:5000`
 - Enhance search functionality with auto-complete.
 - Introduce a community rating feature to see average ratings from all users.
 
-## License
-This project is licensed under the MIT License.
-
-## Author
-Built by Paolo Ibanez Medina
 
