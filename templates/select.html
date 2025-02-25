@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1 class="text-center my-5">Select a Movie</h1>
+<div class="container">
+  <ul class="list-group">
+    {% for movie in movies %}
+      <li class="list-group-item">
+        <a href="{{ url_for('add_selected', movie_id=movie['id']) }}">
+          {{ movie['title'] }} ({{ movie['release_date'].split('-')[0] }})
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}
